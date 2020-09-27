@@ -1,0 +1,358 @@
+header,
+section,
+footer {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    height: 80px;
+    background-color: white;
+}
+
+@font-face{
+    font-family: 'Sicret_PERSONAL-ExtraLight';
+    src:url('Sicret_PERSONAL-ExtraLight.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Sicret_PERSONAL-Light';
+    src:url('Sicret_PERSONAL-Light.ttf') format('truetype');
+    }
+
+#logo {
+    width: 415px;
+    height: 80px;
+    background-color: white;
+    float: left;
+}
+
+#logo img{
+    width: 400px;
+    margin-top: 11.5px;
+    margin-left: 7.5px;
+}
+
+#botonera_principal {
+    width: 400px;
+    height: 80px;
+    background-color: black;
+    float: right;
+}
+
+#botonera_principal .iniciarsesion{
+    text-align: center;
+    line-height: 100px;
+}
+
+.iniciarsesion a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Sicret_PERSONAL-Light';
+    font-size: 50px;
+}
+
+#contenido_index {
+    height: 800px;
+   background-image: url(zzebra.png);
+}
+
+#caja{
+    -moz-box-shadow: 0px 0px 20px #000000;
+    -webkit-box-shadow: 0px 0px 20px #000000;
+    box-shadow: 0px 0px 20px #000000;
+    background-color: white;
+    float: left;
+    width: 800px;
+    height: 650px;
+    margin-left: 80px;
+    margin-top: 70px;
+}
+
+ul.cuenta{
+    margin-top: 40px;
+    font-family: 'Sicret_PERSONAL-Light';
+    border-bottom: solid black 5px;
+    padding-bottom: 60px;
+    font-size: 22.5px;
+}
+
+ul.cuenta li{
+    list-style-type: none;
+    margin-bottom: 20px;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+ul.cuenta label{
+    margin-left: 10px;
+}
+
+ul.cuenta li input{
+    margin-left: 20px;
+    font-family: 'Sicret_PERSONAL-Light';
+}
+
+ul.registro{
+    margin-top: 40px;
+    font-family: 'Sicret_PERSONAL-Light';
+    padding-bottom: 60px;
+    display: flex;
+    font-size: 22.5px;
+}
+
+ul.registro li{
+    list-style-type: none;
+    margin-bottom: 20px;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+ul.registro label{
+    margin-left: 10px;
+}
+
+ul.registro li input{
+    margin-left: 20px;
+    font-family: 'Sicret_PERSONAL-Light';
+}
+
+.column{
+    
+    -moz-column-count: 2;
+    -moz-column-gap: 10em;
+    -moz-column-rule: 1.5px ;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 10em;
+    -webkit-column-rule: 1.5px ;
+    column-count: 2;
+    column-gap: 10em;
+    column-rule: 1.5px ;
+    height: 250px;
+}
+
+footer {
+    height: 150px;
+    background-color: black;
+}
+
+footer p{
+    color: white;
+    margin-top: 3px;
+    font-size: 25px;
+    font-family: 'Sicret_PERSONAL-Light';
+    line-height: 200px;
+    margin-left: 20px;
+}
+
+
+@media all and (min-width: 600px) and (max-width: 1023px){
+
+
+header,
+    section,
+    footer {
+        width: 90%;
+        
+    }
+    
+    header {
+        height: auto;
+    }
+    
+  
+    #logo {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+    
+    #logo img{
+        width: 100%;
+      
+    }
+    
+    #botonera_principal {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+    
+    #botonera_principal .iniciarsesion{
+        width: 100%;
+        text-align: center;
+        line-height: 100px;
+    }
+
+    .iniciarsesion a{
+   font-size: 70px;
+    }
+    
+    #contenido_index {
+        width: 100%;
+        height: auto;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        margin-top: 10px;
+    }
+    
+
+
+    #caja{
+        float: none;
+        width: 70%;
+        height: auto;
+
+        margin-left: 16%;
+        margin-top: 0px;
+    }
+    
+  
+    ul.cuenta li{
+        margin-bottom: 1px;
+        font-size: 27px;
+        padding-top: 10%;
+    }
+    
+ 
+    
+    
+    
+    ul.registro{
+        margin-top: 0px;
+        padding-bottom: 50px;
+        display:inline-block;
+        font-size: 22.5px;
+        height: 450px;
+    }
+    
+
+    
+    
+    
+    .column{
+        font-size: 27px;
+        -moz-column-count: 2px;
+        -moz-column-gap: 2px;
+        -moz-column-rule: 2px ;
+        -webkit-column-count: 1;
+        -webkit-column-gap: 1px;
+        -webkit-column-rule: 1px;
+        column-count: 1px;
+        column-gap: 1px;
+        column-rule: 1px ;
+        display: inline;
+    }
+    
+    footer {
+        width: auto;
+        height: 80px;
+    }
+    
+    footer p{
+height: auto;        
+margin-top: 4px;
+text-align: center;
+        font-size: 26px;
+        line-height: 70px;
+        margin-left: 20px;
+    }
+
+
+
+
+} /*fin media 600 - 1023px*/
+
+
+@media all and (max-width: 599px) {
+
+    header,
+    section,
+    footer {
+        width: 90%;
+    }
+    
+    header {
+        height: auto;
+        width: 100%;
+    }
+    
+  
+    #logo {
+        width: 100%;
+        float: left;
+    }
+    
+    #logo img{
+        width: 100%;
+    }
+    
+    #botonera_principal {
+        width: 100%;
+    }
+    
+    #botonera_principal .iniciarsesion{
+        line-height: 90px;
+    }
+    
+    .iniciarsesion a{
+        font-size: 35px;
+    }
+
+    #contenido_index {
+        width: 100%;
+        height: 1200px;
+        padding-bottom: 0px;
+        padding-top: 0%;
+        margin-top: 0%;
+    }
+
+    #caja{
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+    }
+    
+    ul.cuenta li{
+        margin-bottom: 8px;
+        font-size: 27px;
+        padding-top: 10%;
+    }
+
+    ul.registro{
+        margin-top: 0px;
+        padding-bottom: 50px;
+        display:inline-block;
+        font-size: 22.5px;
+        height: 450px;
+    }
+
+    .column{
+        -moz-column-count: 0px;
+        -moz-column-gap: 0px;
+        -moz-column-rule: 0px ;
+        -webkit-column-count: 0;
+        -webkit-column-gap: 0px;
+        -webkit-column-rule: 0px ;
+        column-count: 0px;
+        column-gap: 0px;
+        column-rule: 0px ;
+        display: inline;
+    }
+    
+    footer {
+        height: 100px;
+        width: 100%;
+    }
+    
+    footer p{
+        width: 100%;
+        font-size: 100%;
+        line-height: 125px;
+        text-align: center;
+        margin-left: 0px;
+    }
+}
+
+/* fin media hasta 600px*/

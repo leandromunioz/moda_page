@@ -1,0 +1,557 @@
+header,
+section,
+footer {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    height: 80px;
+    background-color: white;
+}
+
+@font-face{
+    font-family: 'Sicret_PERSONAL-ExtraLight';
+    src:url('Sicret_PERSONAL-ExtraLight.ttf') format('truetype');
+    }
+
+@font-face{
+    font-family: 'Sicret_PERSONAL-Light';
+    src:url('Sicret_PERSONAL-Light.ttf') format('truetype');
+    }
+
+#logo {
+    width: 415px;
+    height: 80px;
+    background-color: white;
+    float: left;
+}
+
+#logo img{
+    width: 400px;
+    margin-top: 11.5px;
+    margin-left: 7.5px;
+}
+
+#botonera_principal {
+    width: 400px;
+    height: 80px;
+    background-color: black;
+    float: right;
+}
+
+#botonera_principal .iniciarsesion{
+    text-align: center;
+    line-height: 100px;
+}
+
+.iniciarsesion a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Sicret_PERSONAL-Light';
+    font-size: 50px;
+}
+
+#contenido_index {
+    height: 800px;
+    background-image: url(zzebra.png);
+}
+
+#imagenuno {
+    float: left;
+    height: 250px;
+    width: 290px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#imagenuno img{
+    border: white solid 3px;
+}
+
+#textouno {
+    float: right;
+    height: 250px;
+    width: 650px;
+    background-color: black;
+    margin-top: 10px;
+    margin-right: 4px;
+}
+
+#textouno h1{
+    font-family: 'Sicret_PERSONAL-Light';
+    color: white;
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+#textouno p{
+    font-family: 'Sicret_PERSONAL-Light';
+    color: white;
+    font-size: 17px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#imagendos {
+    height: 250px;
+    width: 420px;
+    float: left;
+    margin-top: 13px;
+    background-color: white;
+}
+
+#imagendos video{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#textodos {
+    height: 250px;
+    width: 206px;
+    background-color: white;
+    float: left;
+    margin-top: 13px;
+    margin-right: 8px;
+    margin-left: 8px;
+}   
+
+#textodos a{
+    text-decoration: none;
+    color: black;
+}   
+
+#textodos ul{
+    text-decoration: none;
+    color: black;
+    font-family: 'Sicret_PERSONAL-Light';
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-top: 0px;
+    margin-top: 5px;
+}
+
+#textodos ul a:hover{
+    background-color: black;
+    color: white;
+}
+
+#textodos ul li{
+    list-style-type: none;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-bottom: 7px;
+    margin-top: 3.5px;
+}
+
+#textodos ul li a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+
+#textodos ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+#imagentres {
+    height: 244px;
+    width: 314px;
+    float: left;
+    margin-top: 13px;
+}
+
+#imagentres img{
+    border: solid white 3px;
+    height: 244px;
+}
+
+#imagencuatro {
+    height: 260px;
+    width: 940px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url(streetwear5.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#textotres {
+    height: 150px;
+    width: 800px;
+    background-color: black;
+    float: right;
+    margin-right: 70px;
+    margin-top: 50px;
+    border-radius: 2px;
+    -moz-box-shadow: -2px -3px 13px #ffffff;
+    -webkit-box-shadow: -2px -3px 13px #ffffff;
+    box-shadow: -2px -3px 13px #ffffff;
+}
+
+#textotres p{ 
+    font-family: 'Sicret_PERSONAL-Light';
+    color: white;
+    font-size: 20px;
+    margin-left: 12px;
+    margin-top: 20px;
+}
+
+footer {
+    height: 150px;
+    background-color: black;
+}
+
+footer p{
+    color: white;
+    margin-top: 3px;
+    font-size: 25px;
+    font-family: 'Sicret_PERSONAL-Light';
+    line-height: 200px;
+    margin-left: 20px;
+}
+
+/* fin media de 1024px*/
+
+@media all and (min-width: 600px) and (max-width: 1023px){
+
+header,
+section,
+footer {
+    width: 580px;
+}
+
+
+#logo {
+    width: 295px;
+    height: 80px;
+    float: left;
+}
+
+#logo img{
+    width: 280px;
+    margin-top: 17.5px;
+    margin-left: 7.5px;
+}
+
+#botonera_principal {
+    width: 265px;
+    height: 80px;
+    float: right;
+}
+
+#botonera_principal .iniciarsesion{
+    text-align: center;
+    line-height: 90px;
+}
+
+.iniciarsesion a{
+    font-size: 35px;
+}
+
+#contenido_index {
+    height: 883px;
+}
+
+#imagenuno {
+    float: left;
+    height: 200px;
+    width: 160px;
+    margin-top: 0px;
+    margin-left: 5px;
+}
+
+#imagenuno img{
+   
+    width: 160px;
+    margin-top: 25px;
+}
+
+#textouno {
+    float: right;
+    height: 200px;
+    width: 400px;
+    margin-top: 1px;
+}
+
+#textouno h1{
+    font-size: 20px;
+    margin-left: 5px;
+    margin-bottom: 2px;
+}
+
+#textouno p{
+   
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+#imagendos {
+    height: 235px;
+    width: 580px;
+    float: left;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+#imagendos video{
+    margin-top: 3px;
+    margin-left: 0px;
+}
+
+#textodos {
+    height: 171px;
+    width: 277px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 20x;
+    margin-left: 5px;
+}   
+
+#textodos a{
+    text-decoration: none;
+}   
+
+#textodos ul{
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 5px;
+    margin-top: 2.5px;
+    text-align: center;
+}
+
+
+
+#textodos ul li{
+    list-style-type: none;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    margin-top: 2.5px;
+}
+
+
+#imagentres {
+    height: 170px;
+    width: 278px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+#imagentres img{
+    width: 278px;
+    height: 165px;
+}
+
+#imagencuatro {
+    height: 260px;
+    width: 570px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 0px;
+  
+    background-position-y: 150%;
+}
+
+#textotres {
+    height: 200px;
+    width: 450px;
+   
+    float: right;
+    margin-right: 60px;
+    margin-top: 30px;
+    border-radius: 2px;
+    -moz-box-shadow: -2px -3px 13px #ffffff;
+    -webkit-box-shadow: -2px -3px 13px #ffffff;
+    box-shadow: -2px -3px 13px #ffffff;
+}
+
+#textotres p{ 
+    font-size: 18px;
+    margin-left: 2.5px;
+    margin-top: 15px;
+}
+
+footer {
+    height: 100px;
+}
+
+footer p{
+    margin-top: 3px;
+    font-size: 25px;
+    line-height: 125px;
+    margin-left: 20px;
+}
+
+} /* fin media de 600px hasta 1023px*/
+
+@media all and (max-width: 599px){
+
+header,
+section,
+footer {
+    width: 90%;
+}
+
+
+header{
+    height: auto;
+}
+
+#logo {
+    width: 100%;
+    float: left;
+}
+
+#logo img{
+    width: 100%;
+}
+
+#botonera_principal {
+    width: 100%;
+}
+
+#botonera_principal .iniciarsesion{
+    line-height: 90px;
+}
+
+.iniciarsesion a{
+    font-size: 35px;
+}
+
+#contenido_index {
+    height: 1820px;
+}
+
+#imagenuno {
+    clear: both;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    margin-left: 0px;
+}
+
+#imagenuno img{
+    width: 80%;
+    height: 90%;
+}
+
+#textouno {
+    height: auto;
+    width: 100%;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+#textouno h1{
+    font-size: 20px;
+    margin-left: 5px;
+    margin-bottom: 2px;
+}
+
+#textouno p{
+  
+    font-size: 100%;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 7.5px;
+}
+
+#imagendos {
+    height: 235px;
+    width: 100%;
+    float: left;
+    margin-top: 0px;
+    text-align: center;
+}
+
+#imagendos video{
+    margin: 0px;
+    margin-top: 2.5px;
+}
+
+#textodos {
+    height: 265px;
+    width: 95%;
+    margin-top: 5px;
+    margin-right: 15x;
+    margin-left: 2%;
+}   
+
+#textodos ul{
+    font-size: 40px;
+    padding-left: 5px;
+    margin-top: 2.5px;
+    text-align: center;
+}
+
+#textodos ul li{
+    list-style-type: none;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+
+
+#imagentres {
+    height: 250px;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#imagentres img{
+    width: 80%;
+    height: 90%;
+}
+
+#imagencuatro {
+    height: auto;
+    width: 97%;
+    float: left;
+    margin-top: 7.5%;
+    margin-left: 4px;
+    margin-right: 0px;
+    padding-bottom: 7.5%;
+}
+
+#textotres {
+    height: auto;
+    width: 70%;
+    float: right;
+    margin-right: 15%;
+    margin-top: 30px;
+}
+
+#textotres p{ 
+    font-size: 110%;
+    margin-left: 2.5px;
+    margin-top: 15px;
+}
+
+footer {
+    height: 100px;
+}
+
+footer p{
+    width: 100%;
+    font-size: 100%;
+    line-height: 125px;
+    text-align: center;
+    margin-left: 0px;
+}
+
+} /* fin media hasta 600px*/
